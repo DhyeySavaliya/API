@@ -12,9 +12,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("COV"),
+        title: Text("API"),
       ),
-      body: Column(children: []),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
